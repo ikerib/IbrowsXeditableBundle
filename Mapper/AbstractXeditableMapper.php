@@ -1,8 +1,8 @@
 <?php
 
-namespace Ibrows\XeditableBundle\Mapper;
+namespace Ikerib\XeditableBundle\Mapper;
 
-use Ibrows\XeditableBundle\Model\XeditableMapperInterface;
+use Ikerib\XeditableBundle\Model\XeditableMapperInterface;
 use Symfony\Component\Form\FormInterface;
 
 abstract class AbstractXeditableMapper implements XeditableMapperInterface

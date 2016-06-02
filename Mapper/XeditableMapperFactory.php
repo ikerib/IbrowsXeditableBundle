@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibrows\XeditableBundle\Mapper;
+namespace Ikerib\XeditableBundle\Mapper;
 
 use Symfony\Bundle\FrameworkBundle\Templating\EngineInterface;
 use Symfony\Component\Form\Extension\Validator\EventListener\ValidationListener;

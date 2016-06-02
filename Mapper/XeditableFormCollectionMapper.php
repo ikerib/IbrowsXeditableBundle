@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibrows\XeditableBundle\Mapper;
+namespace Ikerib\XeditableBundle\Mapper;
 
 use Doctrine\Common\Collections\Collection;
 use Symfony\Component\Form\FormInterface;
@@ -160,7 +160,7 @@ class XeditableFormCollectionMapper extends AbstractFormXeditableMapper
      */
     public function getName()
     {
-        return 'ibrows_xeditable_form';
+        return 'Ikerib_xeditable_form';
     }
 
     /**
@@ -169,7 +169,7 @@ class XeditableFormCollectionMapper extends AbstractFormXeditableMapper
      */
     protected function getRenderTemplate(array $options = array())
     {
-        return isset($options['template']) ? $options['template'] : 'IbrowsXeditableBundle::xeditablecollection.html.twig';
+        return isset($options['template']) ? $options['template'] : 'IkeribXeditableBundle::xeditablecollection.html.twig';
     }
 
     /**
@@ -187,10 +187,10 @@ class XeditableFormCollectionMapper extends AbstractFormXeditableMapper
      */
     protected function getRenderCollectionSubFormTemplate($key, array $options = array())
     {
-        $default = 'IbrowsXeditableBundle::xeditableform.html.twig';
+        $default = 'IkeribXeditableBundle::xeditableform.html.twig';
 
         if ($key === self::ROUTE_KEY_DELETE) {
-            $default = 'IbrowsXeditableBundle::xeditableform_delete.html.twig';
+            $default = 'IkeribXeditableBundle::xeditableform_delete.html.twig';
         }
 
         return isset($options['template_' . $key]) ? $options['template_' . $key] : $default;

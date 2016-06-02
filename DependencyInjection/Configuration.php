@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibrows\XeditableBundle\DependencyInjection;
+namespace Ikerib\XeditableBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -20,7 +20,7 @@ class Configuration implements ConfigurationInterface
 
         $treeBuilder = new TreeBuilder();
 
-        $rootNode = $treeBuilder->root('ibrows_xeditable');
+        $rootNode = $treeBuilder->root('ikerib_xeditable');
 
         return $treeBuilder;
     }

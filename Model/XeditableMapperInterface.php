@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibrows\XeditableBundle\Model;
+namespace Ikerib\XeditableBundle\Model;
 
 interface XeditableMapperInterface
 {

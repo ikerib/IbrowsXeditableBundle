@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibrows\XeditableBundle\Mapper;
+namespace Ikerib\XeditableBundle\Mapper;
 
 use Symfony\Component\Form\FormError;
 use Symfony\Component\Form\FormInterface;
@@ -146,7 +146,7 @@ class XeditableFormMapper extends AbstractFormXeditableMapper
      */
     public function getName()
     {
-        return 'ibrows_xeditable_form';
+        return 'Ikerib_xeditable_form';
     }
 
     /**

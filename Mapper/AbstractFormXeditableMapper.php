@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibrows\XeditableBundle\Mapper;
+namespace Ikerib\XeditableBundle\Mapper;
 
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Response;
